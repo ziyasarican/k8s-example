@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: k8s-example
-          image: k8s-example:1.0
+          image: saricanziyadocker/k8s-example:1.1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
